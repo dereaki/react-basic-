@@ -7,7 +7,9 @@ import List from "./component/week_1/list";
 import ListExersise from "./component/week_1/ListExersise";
 import Images from "./component/week_1/insertImages";
 import img from "./assets/images/1.jpg";
-import Handler from "./component/week_1/eventHandler";
+import Click from "./component/week_1/EventHandler/click";
+import Copy from "./component/week_1/EventHandler/oncopy";
+import Change from "./component/week_1/EventHandler/onchange";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       {/* <List /> */}
       {/* <ListExersise /> */}
       {/* <Images /> */}
-      <Handler />
+      {/* <Click /> */}
+      {/* <Copy /> */}
+      <Change />
     </>
   );
 }
