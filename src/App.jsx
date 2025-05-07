@@ -10,6 +10,7 @@ import img from "./assets/images/1.jpg";
 import Click from "./component/week_1/EventHandler/click";
 import Copy from "./component/week_1/EventHandler/oncopy";
 import Change from "./component/week_1/EventHandler/onchange";
+import Exersise1 from "./component/week_1/EventHandler/exersise1";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Images /> */}
       {/* <Click /> */}
       {/* <Copy /> */}
-      <Change />
+      {/* <Change /> */}
+      <Exersise1 />
     </>
   );
 }
