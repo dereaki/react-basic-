@@ -11,6 +11,8 @@ import Click from "./component/week_1/EventHandler/click";
 import Copy from "./component/week_1/EventHandler/oncopy";
 import Change from "./component/week_1/EventHandler/onchange";
 import Exersise1 from "./component/week_1/EventHandler/exersise1";
+import State from "./component/week_1/Hooks/useState";
+import Add from "./component/week_1/Hooks/add_delete";
 
 function App() {
   return (
@@ -24,7 +26,11 @@ function App() {
       {/* <Click /> */}
       {/* <Copy /> */}
       {/* <Change /> */}
-      <Exersise1 />
+      {/* <Exersise1 /> */}
+      <State />
+      <State />
+      <State />
+      <Add />
     </>
   );
 }
