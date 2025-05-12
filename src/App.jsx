@@ -13,8 +13,11 @@ import Change from "./component/week_1/EventHandler/onchange";
 import Exersise1 from "./component/week_1/EventHandler/exersise1";
 import State from "./component/week_1/Hooks/useState";
 import Add from "./component/week_1/Hooks/add_delete";
+import ComponentOne from "./component/week_1/Hooks/Exeresise.jsx/ComponentOne";
+import RandomNumberGenerator from "./component/week_1/Hooks/Exeresise.jsx/randomNumberGenerator";
 
 function App() {
+  const [count, setCount] = useState(1);
   return (
     <>
       {/* <Component />
@@ -27,10 +30,12 @@ function App() {
       {/* <Copy /> */}
       {/* <Change /> */}
       {/* <Exersise1 /> */}
+      {/* <State />
       <State />
-      <State />
-      <State />
-      <Add />
+      <State /> */}
+      {/* <Add /> */}
+      {/* <ComponentOne count={count} onClickHandler={() => setCount(count + 1)} /> */}
+      <RandomNumberGenerator />
     </>
   );
 }
